@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/74446f056c7af9b2f182/maintainability)](https://codeclimate.com/github/amaysim-au/docker-codeclimate-test-reporter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/74446f056c7af9b2f182/test_coverage)](https://codeclimate.com/github/amaysim-au/docker-codeclimate-test-reporter/test_coverage)
 # Docker CodeClimate Test Reporter
 
 [CodeClimate Test Reporter](https://github.com/codeclimate/test-reporter) in a Docker Container
