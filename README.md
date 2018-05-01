@@ -34,6 +34,7 @@ This repository contains a Go example to be used for testing test coverage and C
 1. Add this repository to Code Climate
     1. Select "Open source"
     1. then "Add a repository"
+    > Skip this section if it is already there. However, you may need to commit a code change so that it sends a new code coverage.
 1. Get the "CC_TEST_REPORTER_ID"
     1. Go to "Settings"
     1. Go to "Test coverage"
