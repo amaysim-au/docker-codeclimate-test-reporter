@@ -6,11 +6,11 @@
 
 ```bash
 # build image locally
-$ make build
+$ make dockerBuild
 # test the image
-$ make test
+$ make dockerTest
 # go inside the container
-$ make shell
+$ make dockerShell
 ```
 
 ## Update Docker image
@@ -19,7 +19,7 @@ $ make shell
 
 > For version update, Makefile and Dockerfile need to be updated
 
-1. Build and test locally `$ make build test`
+1. Build and test locally `$ make dockerBuild dockerTest`
 1. Commit and push
 1. Run `$ make tag`
 1. Go to [hub.docker.com](https://hub.docker.com/r/amaysim/codeclimate-test-reporter/)

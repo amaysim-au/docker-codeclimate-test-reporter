@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  golang:
+    image: amaysim/golang:1.10.0-stretch
+    env_file: .env
+    volumes:
+      - .:/go/src/github.com/amaysim-au/docker-codeclimate-test-reporter
+    working_dir: /go/src/github.com/amaysim-au/docker-codeclimate-test-reporter
+
+  codeclimate:
+    image: amaysim/codeclimate-test-reporter:0.5.0
+    env_file: .env
+    working_dir: /opt/app
+    entrypoint: make
+    volumes:
+      - .:/opt/app

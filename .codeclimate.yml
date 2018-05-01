@@ -1,0 +1,10 @@
+# from https://docs.codeclimate.com/docs/advanced-configuration
+version: "2"
+# available list can be found here https://docs.codeclimate.com/docs/list-of-engines
+plugins:
+  gofmt:
+    enabled: true
+  golint:
+    enabled: true
+  govet:
+    enabled: true
