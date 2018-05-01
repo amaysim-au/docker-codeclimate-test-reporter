@@ -1,7 +1,7 @@
 package example_test
 
 import (
-	"github.com/amaysim-au/docker-codeclimate-test-reporter/example"
+	// "github.com/amaysim-au/docker-codeclimate-test-reporter/example"
 	"testing"
 )
 
