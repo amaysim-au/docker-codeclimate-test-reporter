@@ -26,3 +26,17 @@ $ make dockerShell
 1. In `Build Details` tab, you should now see the build kicking off
 
 ## Test with Code Climate
+
+This repository contains a Go example to be used for testing test coverage and Code Climate.
+
+1. Add this repository to Code Climate
+    1. Select "Open source"
+    1. then "Add a repository"
+1. Get the "CC_TEST_REPORTER_ID"
+    1. Go to "Settings"
+    1. Go to "Test coverage"
+1. Create a `.env` file based on `.env.template`
+    1. The file should contain `CC_TEST_REPORTER_ID=the-id-from-settings`
+1. Run the tests which will also send the report to Code Climate `$ make test`
+1. Back to the Code Climate web site, you should see the coverage being 100%
+1. Clean everything `$ make clean`

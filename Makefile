@@ -1,5 +1,6 @@
 CODECLIMATE_TEST_REPORTER_VERSION = 0.5.0
 IMAGE_NAME ?= amaysim/codeclimate-test-reporter:$(CODECLIMATE_TEST_REPORTER_VERSION)
+PROFILE_NAME ?= c.out
 
 ####################################
 # Code Climate Test Reporter Image #
@@ -33,8 +34,13 @@ test:
 	docker-compose run --rm codeclimate _sendToCodeClimate
 .PHONY: test
 
+clean:
+	docker-compose down --remove-orphans
+	rm $(PROFILE_NAME)
+.PHONY: clean
+
 _test:
-	go test -coverprofile=c.out ./...
+	go test -coverprofile=$(PROFILE_NAME) ./...
 .PHONY: _test
 
 _sendToCodeClimate:
