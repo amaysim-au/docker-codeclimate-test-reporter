@@ -24,3 +24,5 @@ $ make dockerShell
 1. Run `$ make tag`
 1. Go to [hub.docker.com](https://hub.docker.com/r/amaysim/codeclimate-test-reporter/)
 1. In `Build Details` tab, you should now see the build kicking off
+
+## Test with Code Climate
