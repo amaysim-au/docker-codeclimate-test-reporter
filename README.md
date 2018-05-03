@@ -1,7 +1,7 @@
 [![Project status](https://img.shields.io/badge/version-0.5.0-green.svg)](https://github.com/amaysim-au/docker-codeclimate-test-reporter/releases)
 [![Maintainability](https://api.codeclimate.com/v1/badges/74446f056c7af9b2f182/maintainability)](https://codeclimate.com/github/amaysim-au/docker-codeclimate-test-reporter/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/74446f056c7af9b2f182/test_coverage)](https://codeclimate.com/github/amaysim-au/docker-codeclimate-test-reporter/test_coverage)
-[![License](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/flemay/envvars/blob/master/LICENSE)
+[![License](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/amaysim-au/docker-codeclimate-test-reporter/blob/master/LICENSE)
 [![Docker Build Status](https://img.shields.io/docker/build/amaysim/codeclimate-test-reporter.svg)](https://hub.docker.com/r/amaysim/codeclimate-test-reporter)
 [![Docker Automated build](https://img.shields.io/docker/automated/amaysim/codeclimate-test-reporter.svg)](https://hub.docker.com/r/amaysim/codeclimate-test-reporter)
 # Docker CodeClimate Test Reporter
